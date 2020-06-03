@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fcD-sv-Xiz">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Book Core Live View Controller-->
+        <scene sceneID="HVS-ZB-wEb">
+            <objects>
+                <viewController storyboardIdentifier="One" id="fcD-sv-Xiz" customClass="BookCore_LiveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rh2-0a-zph">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="qaR-nP-dw0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uvi-wC-fap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247.19999999999999" y="95.802098950524751"/>
+        </scene>
+        <!--Book Core Live View Controller Two-->
+        <scene sceneID="BB4-mD-nHE">
+            <objects>
+                <viewController storyboardIdentifier="Two" id="obR-s0-UkK" customClass="BookCore_LiveViewControllerTwo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8ON-CD-gwS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZuE-FM-7kE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BV6-Xf-0uV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616.79999999999995" y="95.802098950524751"/>
+        </scene>
+        <!--Book Core Live View Controller Four-->
+        <scene sceneID="clK-kb-QFJ">
+            <objects>
+                <viewController storyboardIdentifier="Four" id="2qP-nS-Khk" customClass="BookCore_LiveViewControllerFour" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7zA-pv-AY2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Oje-en-raH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVo-zv-ODK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2317.5999999999999" y="95.802098950524751"/>
+        </scene>
+        <!--Book Core Live View Controller Three-->
+        <scene sceneID="6Vl-b8-ofu">
+            <objects>
+                <viewController storyboardIdentifier="Three" id="fC8-dr-ea6" customClass="BookCore_LiveViewControllerThree" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bjx-EG-GC9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZOJ-34-pZd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Hd-rd-YaS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1462" y="96"/>
+        </scene>
+    </scenes>
+</document>
